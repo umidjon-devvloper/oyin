@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "start": "node telegram-gift-bot.js"
+    "start": "node telegram-gift-bot.js",
+    "dev": "nodemon telegram-gift-bot.js"
   },
   "dependencies": {
     "better-sqlite3": "^12.8.0",
     "dotenv": "^17.4.0",
     "fs": "^0.0.1-security",
+    "nodemon": "^3.1.14",
     "telegraf": "^4.16.3"
   }
 }
